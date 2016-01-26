@@ -4,7 +4,7 @@
   <groupId>com.divya.devops</groupId>
   <artifactId>webservice</artifactId>
   <packaging>jar</packaging>
-  <version>1.0</version>
+  <version>1.0-ALPHA</version>
   <name>webservice</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -15,19 +15,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <distributionManagement>
- 		<repository>
-			<id>artifactory</id>
-			<name>Internal Releases</name>
-			<uniqueVersion>false</uniqueVersion>
-			<url>http://localhost:8081/artifactory/gi3-release</url>
-		</repository>
-		<snapshotRepository>
-			<id>artifactory</id>
-			<name>Internal Releases</name>
-			<uniqueVersion>false</uniqueVersion>
-			<url>http://localhost:8081/artifactory/gi3-Snapshot</url>
-		</snapshotRepository>
-	</distributionManagement>
+  
   
 </project>
