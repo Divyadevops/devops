@@ -4,7 +4,7 @@
   <groupId>com.divya.devops</groupId>
   <artifactId>webservice</artifactId>
   <packaging>jar</packaging>
-  <version>${version_number}</version>
+  <version>1.0</version>
   <name>webservice</name>
   <url>http://maven.apache.org</url>
   <dependencies>
